@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbBibliotecaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'DbBiblioteca.dbo.Libro' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Libro">
+    <Key>
+      <PropertyRef Name="idlibro" />
+    </Key>
+    <Property Name="idlibro" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="titulo" Type="varchar" MaxLength="50" />
+    <Property Name="autor" Type="varchar" MaxLength="50" />
+    <Property Name="ISBN" Type="varchar" MaxLength="15" />
+    <Property Name="fecha_publicacion" Type="date" />
+    <Property Name="num_ejemplares" Type="int" />
+    <Property Name="categoria" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'DbBiblioteca.dbo.Video' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Video">
+    <Key>
+      <PropertyRef Name="idvideo" />
+    </Key>
+    <Property Name="idvideo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="titulo" Type="varchar" MaxLength="50" />
+    <Property Name="fecha_publicacion" Type="date" />
+    <Property Name="formato" Type="varchar" MaxLength="50" />
+    <Property Name="duracion" Type="varchar" MaxLength="10" />
+    <Property Name="categoria" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="DbBibliotecaModelStoreContainer">
+    <EntitySet Name="Libro" EntityType="Self.Libro" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Libro].[idlibro] AS [idlibro], 
+    [Libro].[titulo] AS [titulo], 
+    [Libro].[autor] AS [autor], 
+    [Libro].[ISBN] AS [ISBN], 
+    [Libro].[fecha_publicacion] AS [fecha_publicacion], 
+    [Libro].[num_ejemplares] AS [num_ejemplares], 
+    [Libro].[categoria] AS [categoria]
+    FROM [dbo].[Libro] AS [Libro]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Video" EntityType="Self.Video" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Video].[idvideo] AS [idvideo], 
+    [Video].[titulo] AS [titulo], 
+    [Video].[fecha_publicacion] AS [fecha_publicacion], 
+    [Video].[formato] AS [formato], 
+    [Video].[duracion] AS [duracion], 
+    [Video].[categoria] AS [categoria]
+    FROM [dbo].[Video] AS [Video]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

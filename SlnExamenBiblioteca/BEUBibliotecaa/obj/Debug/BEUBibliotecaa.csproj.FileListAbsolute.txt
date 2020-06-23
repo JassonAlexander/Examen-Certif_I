@@ -1,0 +1,12 @@
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\obj\Debug\BEUBibliotecaa.csproj.CoreCompileInputs.cache
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\bin\Debug\BEUBibliotecaa.dll.config
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\bin\Debug\BEUBibliotecaa.dll
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\bin\Debug\BEUBibliotecaa.pdb
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\bin\Debug\EntityFramework.dll
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\bin\Debug\EntityFramework.xml
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\obj\Debug\BEUBibliotecaa.csproj.CopyComplete
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\obj\Debug\BEUBibliotecaa.dll
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\obj\Debug\BEUBibliotecaa.pdb
+C:\Users\JASSON SALGUERO\source\repos\SlnExamenBiblioteca\BEUBibliotecaa\obj\Debug\BEUBibliotecaa.csprojAssemblyReference.cache
