@@ -10,107 +10,107 @@ using BEUBiblioteca;
 
 namespace ExamenBiblioteca.Controllers
 {
-    public class LibrosController : Controller
+    public class VideosController : Controller
     {
         private Entities db = new Entities();
 
-        // GET: Libros
+        // GET: Videos
         public ActionResult Index()
         {
-            return View(db.Libroes.ToList());
+            return View(db.Videos.ToList());
         }
 
-        // GET: Libros/Details/5
+        // GET: Videos/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Libro libro = db.Libroes.Find(id);
-            if (libro == null)
+            Video video = db.Videos.Find(id);
+            if (video == null)
             {
                 return HttpNotFound();
             }
-            return View(libro);
+            return View(video);
         }
 
-        // GET: Libros/Create
+        // GET: Videos/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Libros/Create
+        // POST: Videos/Create
         // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que quiere enlazarse. Para obtener 
         // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "idlibro,titulo,autor,ISBN,fecha_publicacion,num_ejemplares,categoria")] Libro libro)
+        public ActionResult Create([Bind(Include = "idvideo,titulo,fecha_publicacion,formato,duracion,categoria")] Video video)
         {
             if (ModelState.IsValid)
             {
-                db.Libroes.Add(libro);
+                db.Videos.Add(video);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(libro);
+            return View(video);
         }
 
-        // GET: Libros/Edit/5
+        // GET: Videos/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Libro libro = db.Libroes.Find(id);
-            if (libro == null)
+            Video video = db.Videos.Find(id);
+            if (video == null)
             {
                 return HttpNotFound();
             }
-            return View(libro);
+            return View(video);
         }
 
-        // POST: Libros/Edit/5
+        // POST: Videos/Edit/5
         // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que quiere enlazarse. Para obtener 
         // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "idlibro,titulo,autor,ISBN,fecha_publicacion,num_ejemplares,categoria")] Libro libro)
+        public ActionResult Edit([Bind(Include = "idvideo,titulo,fecha_publicacion,formato,duracion,categoria")] Video video)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(libro).State = EntityState.Modified;
+                db.Entry(video).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(libro);
+            return View(video);
         }
 
-        // GET: Libros/Delete/5
+        // GET: Videos/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Libro libro = db.Libroes.Find(id);
-            if (libro == null)
+            Video video = db.Videos.Find(id);
+            if (video == null)
             {
                 return HttpNotFound();
             }
-            return View(libro);
+            return View(video);
         }
 
-        // POST: Libros/Delete/5
+        // POST: Videos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Libro libro = db.Libroes.Find(id);
-            db.Libroes.Remove(libro);
+            Video video = db.Videos.Find(id);
+            db.Videos.Remove(video);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

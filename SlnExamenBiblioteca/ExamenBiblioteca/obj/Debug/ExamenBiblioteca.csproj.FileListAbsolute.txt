@@ -144,7 +144,6 @@ C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\Examen
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\roslyn\VBCSCompiler.exe
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\Antlr3.Runtime.dll
-C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\BEUBibliotecaa.dll
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\EntityFramework.dll
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\EntityFramework.SqlServer.dll
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -158,8 +157,6 @@ C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\Examen
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\System.Web.WebPages.dll
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\System.Web.WebPages.Razor.dll
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\WebGrease.dll
-C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\BEUBibliotecaa.pdb
-C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\BEUBibliotecaa.dll.config
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\EntityFramework.xml
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\EntityFramework.SqlServer.xml
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\System.Web.Helpers.xml
@@ -184,3 +181,6 @@ C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\Examen
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\obj\Debug\ExamenBiblioteca.csproj.CopyComplete
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\obj\Debug\ExamenBiblioteca.dll
 C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\obj\Debug\ExamenBiblioteca.pdb
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\BEUBiblioteca.dll
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\BEUBiblioteca.pdb
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\ExamenBiblioteca\bin\BEUBiblioteca.dll.config

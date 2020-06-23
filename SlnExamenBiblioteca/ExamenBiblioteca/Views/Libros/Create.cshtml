@@ -1,4 +1,4 @@
-﻿@model BEUBibliotecaa.Libro
+﻿@model BEUBiblioteca.Libro
 
 @{
     ViewBag.Title = "Create";
@@ -42,7 +42,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.fecha_publicacion, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.fecha_publicacion, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.fecha_publicacion, new { htmlAttributes = new { @class = "form-control" , type = "date" } })
                 @Html.ValidationMessageFor(model => model.fecha_publicacion, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -58,7 +58,28 @@
         <div class="form-group">
             @Html.LabelFor(model => model.categoria, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.categoria, new { htmlAttributes = new { @class = "form-control" } })
+                @{ List<SelectListItem> listItems = new List<SelectListItem>();
+                                    listItems.Add(new SelectListItem
+                                    {
+                                        Text = "Historia",
+                                        Value = "Historia"
+                                    });
+                                    listItems.Add(new SelectListItem
+                                    {
+                                        Text = "Matemática",
+                                        Value = "Matemática",
+                                    });
+                                    listItems.Add(new SelectListItem
+                                    {
+                                        Text = "Ingeniería",
+                                        Value = "Ingeniería"
+                                    });
+                                    listItems.Add(new SelectListItem
+                                    {
+                                        Text = "Literatura",
+                                        Value = "Literatura"
+                                    }); }
+                @Html.DropDownListFor(model => model.categoria, listItems, "-- Seleccionar Categoría --", htmlAttributes: new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.categoria, "", new { @class = "text-danger" })
             </div>
         </div>

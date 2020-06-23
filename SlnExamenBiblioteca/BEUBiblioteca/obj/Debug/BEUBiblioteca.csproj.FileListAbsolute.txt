@@ -1,0 +1,12 @@
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\obj\Debug\BEUBiblioteca.csprojAssemblyReference.cache
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\obj\Debug\BEUBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\bin\Debug\BEUBiblioteca.dll.config
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\bin\Debug\BEUBiblioteca.dll
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\bin\Debug\BEUBiblioteca.pdb
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\bin\Debug\EntityFramework.dll
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\bin\Debug\EntityFramework.xml
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\obj\Debug\BEUBiblioteca.csproj.CopyComplete
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\obj\Debug\BEUBiblioteca.dll
+C:\Users\JASSON SALGUERO\source\repos\Examen-Certif_I\SlnExamenBiblioteca\BEUBiblioteca\obj\Debug\BEUBiblioteca.pdb
