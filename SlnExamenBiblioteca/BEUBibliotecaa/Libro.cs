@@ -15,6 +15,11 @@ namespace BEUBibliotecaa
 
     public partial class Libro
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Libro()
+        {
+        }
+
         [ScaffoldColumn(false)]
         public int idlibro { get; set; }
         [DataType(DataType.Text)]

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BEUBilbioteca.Transactions
+namespace BEUBibliotecaa.Transactions
 {
     public class LibroBLL
     {

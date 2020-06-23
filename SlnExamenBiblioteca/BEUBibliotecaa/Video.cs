@@ -15,6 +15,11 @@ namespace BEUBibliotecaa
 
     public partial class Video
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Video()
+        {
+        }
+
         [ScaffoldColumn(false)]
         public int idvideo { get; set; }
         [DataType(DataType.Text)]
